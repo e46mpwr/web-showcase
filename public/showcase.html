@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head><meta charset="utf-8"></head>
+  <body>
+    <script type="module">
+      import {load} from "https://croquet.io/showcase/showcase.js";
+      load({
+        title: "My Showcase", 
+        showcase: "gallery", 
+        cards: [
+          // each item in cards array has a 'place' to specify the location in the art gallery
+          // 'type' is either "image", "pdf", or "video"
+          // 'path' specifies the location of the asset, either as full URL or as path relative to this html file
+          {place: 1, type: "image", path: "https://croquet.io/showcase/site/CompanyLogo.jpg"},
+          {place: 2, type: "pdf", path: "https://croquet.io/showcase/site/CompanyDeck.pdf"},
+          {place: 3, type: "video", path: "https://croquet.io/showcase/site/CustomerVideo.mp4", muted: false},
+          {place: 4, type: "image", path: "https://croquet.io/showcase/site/CustomerLogos.png"},
+          {place: 5, type: "image", path: "https://croquet.io/showcase/site/CallToAction.png", urlLink: "https://croquet.io/webshowcase"},
+        ],
+        voiceChat: true,
+        appId: "com.gmail.drubright64.showcase",
+        apiKey: "1yaoKiNucK42sdvbxzmsOjC0vNA8jsb0sbj89gAzO",
+      });
+    </script>
+  </body>
+</html>
