@@ -17,7 +17,7 @@ function App() {
         >
           Learn React
         </a>
-<iframe src="showcase.html" width="600" height="600" />
+<iframe src="showcase.html" width="640" height="360" />
       </header>
     </div>
   );
